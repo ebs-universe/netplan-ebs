@@ -1,5 +1,11 @@
 # Change log for netplan
 
+## Version 0.4.1 (2022-02-09)
+
+- handle `version` and `renderer` network top-level attributes
+- remove support of python2
+- fix linters issues
+
 ## Version 0.3.3 (2018-08-20)
 
 - in setup.py, obtain the netplan version string using a regex
