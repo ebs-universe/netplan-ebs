@@ -52,7 +52,7 @@ with open("README.md", mode="r") as readme:
     long_description = readme.read()
 
 setuptools.setup(
-    name="netplan",
+    name="netplan-ebs",
     version=get_version(),
     packages=("netplan",),
     author="StorPool OpenStack development team",
@@ -62,7 +62,7 @@ setuptools.setup(
     long_description_content_type="text/markdown",
     license="Apache License 2.0",
     keywords="netplan",
-    url="https://github.com/storpool/netplan",
+    url="https://github.com/ebs-universe/netplan-ebs",
     install_requires=["PyYAML", 'typing;python_version<"3"'],
     package_data={"netplan": ["py.typed"]},
     zip_safe=True,
